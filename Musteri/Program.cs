@@ -32,20 +32,20 @@ namespace Musteri
 
             Musteri musteri2 = new Musteri();
             musteri2.Id = "2";
-            musteri2.MusteriAdi = "Kudret";
-            musteri2.MusteriSoyadi = "Yılmaz";
+            musteri2.MusteriAdi = "Eren";
+            musteri2.MusteriSoyadi = "Taşkıran";
 
 
             Musteri musteri3 = new Musteri();
             musteri3.Id = "3";
-            musteri3.MusteriAdi = "Kudret";
-            musteri3.MusteriSoyadi = "Yılmaz";
+            musteri3.MusteriAdi = "Gün";
+            musteri3.MusteriSoyadi = "Güneş";
 
 
             Musteri musteri4 = new Musteri();
             musteri4.Id = "4";
-            musteri4.MusteriAdi = "Kudret";
-            musteri4.MusteriSoyadi = "Yılmaz";
+            musteri4.MusteriAdi = "Ayla";
+            musteri4.MusteriSoyadi = "Kurt";
 
 
             Musteri[] musteris = new Musteri[] { musteri1, musteri2, musteri3, musteri4 };
