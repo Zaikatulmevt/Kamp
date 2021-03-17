@@ -38,14 +38,24 @@ namespace Musteri
 
             Musteri musteri3 = new Musteri();
             musteri3.Id = "3";
+<<<<<<< HEAD
             musteri3.MusteriAdi = "Gün";
             musteri3.MusteriSoyadi = "Güneş";
+=======
+            musteri3.MusteriAdi = "Eren";
+            musteri3.MusteriSoyadi = "Taşkıran";
+>>>>>>> f6adc2de3d9c2e222df795d24754598443faf38b
 
 
             Musteri musteri4 = new Musteri();
             musteri4.Id = "4";
+<<<<<<< HEAD
             musteri4.MusteriAdi = "Ayla";
             musteri4.MusteriSoyadi = "Kurt";
+=======
+            musteri4.MusteriAdi = "Gül";
+            musteri4.MusteriSoyadi = "Güneş";
+>>>>>>> f6adc2de3d9c2e222df795d24754598443faf38b
 
 
             Musteri[] musteris = new Musteri[] { musteri1, musteri2, musteri3, musteri4 };
