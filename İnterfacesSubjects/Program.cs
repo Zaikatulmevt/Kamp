@@ -6,6 +6,37 @@ namespace İnterfacesSubjects
     {
         static void Main(string[] args)
         {
+            ICustomerDal[] customerDals = new ICustomerDal[3]
+            {
+                new SqlServerCustomerDal(),
+                new OracleServerCustomerDal(),
+                new MySqlServerCustomerDal()
+
+            };
+            foreach (var CustomerDal in customerDals)
+            {
+                CustomerDal.Delete();
+            }
+
+
+
+
+
+
+
+
+
+
+
+            Console.ReadLine();
+            IPerson person = new Customer();
+
+            CustomerManager customerManager = new CustomerManager();
+            customerManager.Add(new OracleServerCustomerDal());
+
+
+
+
             PersonManager personManager = new PersonManager();
             Customer customer = new Customer
             {
